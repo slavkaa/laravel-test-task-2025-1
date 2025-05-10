@@ -1,0 +1,73 @@
+@import './reset.css';
+
+.outer {
+    text-align: center;
+}
+
+.wrapper {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    margin: 0 auto;
+}
+
+.centered-form {
+    padding: 2rem;
+    background: white;
+    border-radius: 8px;
+    border: 1px solid lightgrey;
+    min-width: 500px;
+}
+
+.centered-form label {
+    display: block;
+    margin: 10px 0 10px 0;
+    font-weight: bold;
+    color: #333;
+}
+
+.centered-form input {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.centered-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 12px 0;
+}
+
+hr {
+    margin-bottom: 12px;
+}
+
+.centered-form button:hover {
+    background-color: #bda284;
+}
+
+.hidden {
+    display: none;
+}
+
+.alert-error li,
+.form-error {
+    color: darkred;
+    padding: 0 10px 10px 10px;
+}
+
+a {
+    display: inline-block;
+    padding: 10px 0 0 0;
+    color: blue;
+    text-decoration: underline;
+}
